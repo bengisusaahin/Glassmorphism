@@ -4,7 +4,11 @@
     <item>
         <shape android:shape="rectangle">
             <stroke
-                android:color="#2B0A0A" android:width="2dp" /> <!-- Border width -->
+                android:color="#2B0A0A"
+                android:width="2dp"
+                android:dashWidth="@dimen/cardview_default_radius"
+                android:dashGap="@dimen/material_emphasis_medium"
+                /> <!-- Border width -->
             <corners android:radius="16dp" />
         </shape>
     </item>
